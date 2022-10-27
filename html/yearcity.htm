@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- Copy these scripts to your own server or web hosting: -->
+<script src="https://www.graphica.app/graphicajs/papaparse.min.js" type="text/javascript"></script>
+<script src="https://www.graphica.app/graphicajs/graphica.1.0.25.js" type="text/javascript"></script>
+<!-- SCImago Graphica © All rights reserved, 2021. https://www.graphica.app -->
+<!-- Basic style -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Inter', sans-serif; 
+			background-color:rgb(240,240,240);
+		}
+		#chartid {
+			display: block;
+			width:100%;
+			max-width: 1200px;
+			margin:auto;
+			height: 600px;
+			background-color:white;
+			user-select:none;
+		}
+	</style>
+	<script type="text/javascript">
+		main(function () {
+			// "main" is a function that is called when the DOMContentLoaded event is triggered.
+
+			// chart settings
+			var settings={"general":{"label_config":"","tooltip_config":"","default_shape":"bar","legend_position":"bottom","colors":{"Mauritius":"#ed0c0c","Manila":"#09e13f"},"highlight_on_hover":false,"highlight_same_color_elements_on_hover":false},"grammar":[{"variable":"Items","property":"AXIS_Y","show_title":true,"label":"Events"},{"variable":"Year","property":"AXIS_X"},{"variable":"City","property":"COLOR","interaction":"simple"}]}
+var data="Year;City;Items\n\"1861\";\"Mauritius\";1\n\"1861\";\"Singapore\";3\n\"1862\";\"Singapore\";1\n\"1863\";\"Shanghai\";1\n\"1864\";\"Hongkong\";5\n\"1864\";\"Singapore\";5\n\"1866\";\"Singapore\";3\n\"1868\";\"Hongkong\";1\n\"1868\";\"Shanghai\";2\n\"1870\";\"Hongkong\";10\n\"1870\";\"Shanghai\";10\n\"1871\";\"Hongkong\";35\n\"1871\";\"Singapore\";2\n\"1872\";\"Hongkong\";69\n\"1872\";\"Shanghai\";22\n\"1873\";\"Shanghai\";8\n\"1873\";\"Singapore\";4\n\"1874\";\"Hongkong\";1\n\"1874\";\"Shanghai\";28\n\"1875\";\"Hongkong\";1\n\"1875\";\"Shanghai\";4\n\"1877\";\"Singapore\";1\n\"1879\";\"Singapore\";5\n\"1879\";\"Penang\";1\n\"1880\";\"Singapore\";8\n\"1881\";\"Penang\";2\n\"1881\";\"Singapore\";4\n\"1881\";\"Shanghai\";1\n\"1882\";\"Hongkong\";7\n\"1882\";\"Shanghai\";27\n\"1883\";\"Singapore\";19\n\"1883\";\"Penang\";3\n\"1883\";\"Manila\";4\n\"1883\";\"Hongkong\";2\n\"1883\";\"Shanghai\";1\n\"1884\";\"Manila\";1\n\"1884\";\"Singapore\";8\n\"1885\";\"Hongkong\";5\n\"1885\";\"Singapore\";1\n\"1886\";\"Hongkong\";3\n\"1886\";\"Manila\";3\n\"1886\";\"Shanghai\";15\n\"1886\";\"Singapore\";15\n\"1887\";\"Singapore\";26\n\"1887\";\"Shanghai\";13\n\"1887\";\"Hongkong\";4\n\"1887\";\"Penang\";3\n\"1888\";\"Hongkong\";34\n\"1888\";\"Shanghai\";18\n\"1889\";\"Hongkong\";3\n\"1889\";\"Shanghai\";26\n\"1890\";\"Singapore\";10\n\"1890\";\"Shanghai\";9\n\"1890\";\"Hongkong\";4\n\"1891\";\"Singapore\";10\n\"1891\";\"Penang\";4\n\"1891\";\"Manila\";1\n\"1892\";\"Hongkong\";11\n\"1892\";\"Shanghai\";45\n\"1892\";\"Manila\";6\n\"1892\";\"Penang\";3\n\"1892\";\"Singapore\";32\n\"1893\";\"Singapore\";25\n\"1893\";\"Penang\";1\n\"1893\";\"Manila\";2\n\"1894\";\"Singapore\";17\n\"1894\";\"Shanghai\";40\n\"1894\";\"Hongkong\";26\n\"1895\";\"Manila\";5\n\"1895\";\"Singapore\";39\n\"1895\";\"Penang\";6\n\"1895\";\"Shanghai\";6\n\"1895\";\"Hongkong\";3\n\"1896\";\"Singapore\";49\n\"1896\";\"Penang\";3\n\"1896\";\"Shanghai\";22\n\"1896\";\"Hongkong\";12\n\"1897\";\"Hongkong\";28\n\"1897\";\"Penang\";2\n\"1897\";\"Shanghai\";11\n\"1897\";\"Singapore\";20\n\"1898\";\"Singapore\";11\n\"1898\";\"Penang\";1\n\"1899\";\"Penang\";2\n\"1899\";\"Manila\";2\n\"1899\";\"Hongkong\";15\n\"1899\";\"Shanghai\";16\n\"1899\";\"Singapore\";13\n\"1900\";\"Penang\";11\n\"1900\";\"Singapore\";31\n\"1900\";\"Hongkong\";7\n\"1900\";\"Shanghai\";19\n\"1901\";\"Hongkong\";17\n\"1901\";\"Shanghai\";13\n\"1901\";\"Penang\";1\n\"1901\";\"Singapore\";15\n\"1901\";\"Manila\";8\n\"1902\";\"Singapore\";37\n\"1902\";\"Manila\";4\n\"1902\";\"Shanghai\";23\n\"1902\";\"Penang\";2\n\"1902\";\"Hongkong\";7\n\"1903\";\"Singapore\";10\n\"1903\";\"Shanghai\";62\n\"1903\";\"Penang\";4\n\"1903\";\"Hongkong\";3\n\"1904\";\"Penang\";3\n\"1904\";\"Singapore\";3\n\"1904\";\"Shanghai\";45\n\"1904\";\"Hongkong\";2\n\"1905\";\"Manila\";4\n\"1905\";\"Singapore\";18\n\"1905\";\"Penang\";2\n\"1905\";\"Hongkong\";7\n\"1905\";\"Shanghai\";18\n\"1906\";\"Singapore\";9\n\"1906\";\"Hongkong\";4\n\"1906\";\"Shanghai\";23\n\"1906\";\"Penang\";2\n\"1907\";\"Shanghai\";12\n\"1907\";\"Singapore\";6\n\"1907\";\"Penang\";1\n\"1908\";\"Singapore\";5\n\"1909\";\"Penang\";1\n\"1909\";\"Manila\";3\n\"1909\";\"Hongkong\";6\n\"1909\";\"Shanghai\";29\n\"1909\";\"Singapore\";14\n\"1910\";\"Singapore\";7\n\"1910\";\"Hongkong\";5\n\"1910\";\"Penang\";1\n\"1910\";\"Shanghai\";1\n\"1910\";\"Manila\";1\n\"1911\";\"Hongkong\";13\n\"1911\";\"Singapore\";12\n\"1911\";\"Penang\";2\n"
+var ds=new graphica.Dataset({
+          data: data,
+          datatypes: {"Year":"string","City":"string","Items":"number"}
+
+        	}).done(function () {
+          		new graphica.Chart(this).add('chartid',settings);
+        	});
+     });
+	</script>
+</head>
+<body>
+	<div id="chartid"></div>
+</body>
+</html>
