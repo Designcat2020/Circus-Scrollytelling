@@ -60,7 +60,7 @@ var config = {
   + '<a href="image/006.jpg"><img src="image/006.jpg"><a>'
   + '<p class="imageCredit"> 注：照片为1913年Harmston马戏团在万隆的演出帐篷<a href="https://https://www.nla.gov.au/"> ©pinterest<a> </p>'
   + '<p>新加坡、香港、上海都是十九世纪下半叶伴随着工业革命和殖民地扩张涌现的新兴城市。新加坡在1819年成为英国的殖民地，香港和上海的开埠时间是在1840年鸦片战争之后。到二十世纪初，三个城市迅速成为亚洲乃至全球重要的贸易港口城市。大量人口的涌入，城区不断地扩张，给巡回马戏娱乐产业既带来了巨大的演出市场，也伴随着各种新的麻烦。一来由于巡回马戏演出对场地的特殊要求，标志性的大帐篷需要搭建在城市空地上，又不能远离人口聚居区。而城市中的空地随着人口增多逐渐被居民区填满，这就导致巡回马戏团要寻觅到一处合适的演出空地变得比以前困难得多。其次巡回马戏演出密度的增加和演出场所距离居民区过近，导致居民的抱怨和意外事故陡然增多。像恶劣天气导致场地内涝，演出垃圾，噪音扰民，动物意外走失或伤人事件等等，负面报道频频见诸报端，巡回马戏的演出很可能会演变成一场公共灾难。</p>'
-  + '<iframe class ="w-half" allowfullscreen="" src="https://designcat2020.github.io/citymap/" loading="eager"> </iframe>'
+  + '<iframe class ="w-half" allowfullscreen="" src="./html/Singapore/index.html" loading="eager"> </iframe>'
   + '<p class="imageCredit">注：左侧为新加坡<a href="http://nla.gov.au/nla.obj-233406505">1924年</a>地图，右侧为新加坡<a href="http://nla.gov.au/nla.obj-570272842">1935年</a>地图，  <a href="https://assets.pinterest.com/ext/embed.html?id=835558537088494772"> ©Trove <a> </p>' 
   + '<p>选址的矛盾在新加坡更为明显，1881年Chiarini马戏团在新加坡的演出选择在坦克街（Tank Road）与河谷路（River Valley Road）的拐角空地（Fort Canning），之后迁移到沿着滨海大道欧洲大酒店（Hotel de I’Europe）前的大草坪上。但随着城市人口增多，居民对于马戏场地垃圾的抱怨和城市管理者不作为的批评逐渐加剧（详见TST, 19 Oct. 1895, p4< Long shore and nautical chat>）。进而催生了现代新加坡的城市规划，于是1932年大酒店被拆除，改建为最高法院，草坪不再被许可用作演出场地。进入二十世纪，马戏团的老板们被迫为寻找合适的演出场地大费周章，《自由西报》（Singapore Free Press and Mercantile Advertiser） 1902年8月的专题报道就描述了马戏团老板面临的选址难题，“一个给人们带来快乐的表演，却总是在城市里最泥泞和最不方便的地点。”《海峡时报》（The Strait Times） 更是在1909年3月的报道中将马戏团选址矛盾的源头直指城市众多管理部门的不作为及管理混乱（It is depriving him of a livelihood because some official is too busy or too lazy to inspect the premises.）。</p>'
   + '<a href="image/008.jpg"><img src="image/008.jpg"><a>'
